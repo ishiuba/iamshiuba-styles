@@ -1,0 +1,24 @@
+{
+  "name": "@ishiuba.npm.org/styles",
+  "version": "1.0.0",
+  "description": "isSTAR-P reusable design system",
+  "main": "index.css",
+  "files": [
+    "index.css",
+    "scss"
+  ],
+  "keywords": [
+    "css",
+    "tailwind",
+    "design-system"
+  ],
+  "author": "IamSHIUBA",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishiuba/isSTAR-P.git"
+  }
+}

@@ -1,0 +1,45 @@
+.p_termos {
+    .secao_termos {
+        @apply py-8 px-4;
+
+        .termos_container {
+            @apply max-w-screen-xl mx-auto;
+
+            .conteudo_cabecalho_termos {
+                @apply mb-8 text-center;
+
+                .termos_descricao {
+                    @apply text-xl mt-3 text-[var(--text-primary)];
+                }
+
+                .termos_data {
+                    @apply mt-2 text-[var(--is-red-60)];
+                }
+            }
+
+            .conteudo_termos {
+                @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+
+                .termos {
+                    @apply p-6 rounded-lg shadow-lg bg-[var(--background-secondary)];
+
+                    .termos_ {
+                        @apply flex items-center mb-4;
+
+                        i {
+                            @apply text-2xl mr-3 text-[var(--text-secondary)];
+                        }
+
+                        h2 {
+                            @apply text-xl font-bold text-[var(--text-primary)];
+                        }
+                    }
+
+                    p {
+                        @apply text-[var(--text-secondary)];
+                    }
+                }
+            }
+        }
+    }
+}

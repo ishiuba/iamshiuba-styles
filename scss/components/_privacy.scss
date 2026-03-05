@@ -1,0 +1,45 @@
+.p_privacidade {
+    .secao_privacidade {
+        @apply py-8 px-4;
+
+        .privacidade_container {
+            @apply max-w-7xl mx-auto;
+
+            .conteudo_cabecalho_privacidade {
+                @apply mb-8 text-center;
+
+                .privacidade_descricao {
+                    @apply text-xl mt-3 text-(--text-primary);
+                }
+
+                .privacidade_data {
+                    @apply mt-2 text-(--is-red-60);
+                }
+            }
+
+            .conteudo_privacidade {
+                @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+
+                .privacidade {
+                    @apply p-6 rounded-lg shadow-lg bg-(--background-secondary);
+
+                    .cabecalho_privacidade {
+                        @apply flex items-center mb-4;
+
+                        i {
+                            @apply text-2xl mr-3 text-(--text-secondary);
+                        }
+
+                        h2 {
+                            @apply text-xl font-bold text-(--text-primary);
+                        }
+                    }
+
+                    p {
+                        @apply text-(--text-secondary);
+                    }
+                }
+            }
+        }
+    }
+}
