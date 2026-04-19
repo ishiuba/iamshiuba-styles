@@ -1,6 +1,6 @@
 {
   "name": "@ishiuba.npm.org/styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "isSTAR-P reusable design system",
   "main": "index.css",
   "files": [
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishiuba/isSTAR-P.git"
+    "url": "git+https://github.com/ishiuba/iamshiuba-styles.git"
   }
 }
